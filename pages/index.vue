@@ -163,6 +163,7 @@
         <nuxt-img
           src="/articleImg2.svg"
           class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]" preload
+          loading="lazy"
         />
       </div>
     </section>
@@ -224,7 +225,7 @@
         </div>
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
-        <nuxt-img src="/articleImg3.svg" class="w-full" preload/>
+        <nuxt-img src="/articleImg3.svg" class="w-full" preload loading="lazy"/>
       </div>
     </section>
     <section
@@ -273,7 +274,7 @@
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
         <nuxt-img 
-          preload
+          preload loading="lazy"
           src="/articleImg4.svg"
           class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]"
         />

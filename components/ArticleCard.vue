@@ -3,7 +3,7 @@
     class="rounded-[12px] shadow-blogShadow w-[100%] overflow-hidden sm:h-[428px]"
   >
     <div class="h-[50%] w-full">
-      <nuxt-img :src="image" class="min-w-full min-h-[200px]" fill="cover" />
+      <nuxt-img :src="image" class="min-w-full min-h-[200px]" fill="cover" preload loading="lazy"/>
     </div>
 
     <div class="w-full p-[24px]">
