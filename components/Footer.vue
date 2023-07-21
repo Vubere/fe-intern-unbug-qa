@@ -42,7 +42,7 @@
         </h4>
         <ul class="flex flex-col items-center md:items-start gap-[8px]">
           <li class="text-ash leading-[24px]">
-            <nuxt-link to="/">Help center</nuxt-link>
+            <nuxt-link to="/">FAQ</nuxt-link>
           </li>
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">Affliate program</nuxt-link>

@@ -10,7 +10,7 @@
       </p>
       <div class="w-full relative mb-[16px]">
         <span
-          class="absolute left-[20%] w-[60%] h-[32px] top-[4px] bg-[#e9f2ff] z-[-200]"
+          class="absolute left-[20%] md:left-[23%] w-[60%] h-[32px] md:h-[52px] md:w-[56%] top-[4px] bg-[#e9f2ff] z-[-200]"
         ></span>
         <h2
           class="text-[24px] md:text-[52px] font-[700] leading-[32px] md:leading-[56px] md:tracking-[-1.04px] w-full text-center text-darkBlack"
