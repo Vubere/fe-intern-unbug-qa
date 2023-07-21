@@ -8,7 +8,7 @@
         UnbugQA
       </h1>
       <div class="flex flex-col items-center md:items-start mb-[64px]">
-        <p class="text-lightAsh">Copyright 2023 UnbugQA</p>
+        <p class="text-lightAsh"><span class="mr-1">&copy;</span>Copyright 2023 UnbugQA</p>
         <p class="text-lightAsh">All rights reserved</p>
       </div>
     </div>
