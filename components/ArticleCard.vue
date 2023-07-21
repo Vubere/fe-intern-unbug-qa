@@ -1,14 +1,14 @@
 <template>
-  <article class="rounded-[12px] shadow-blogShadow w-[100%] overflow-hidden">
-    <nuxt-img :src="image" class="min-w-full mb-[24px] min-h-[200px]" fill="cover"/>
+  <article class="rounded-[12px] shadow-blogShadow w-[100%] overflow-hidden sm:h-[428px]">
+    <nuxt-img :src="image" class="min-w-full  min-h-[200px]" fill="cover"/>
    
-    <div class="p-[24px]">
+    <div class="w-full p-[24px]">
       <h3
-        class="font-[700] text-darkBlack text-start mb-[8px] text-[18px] w-[80%]"
+        class="font-[700] text-darkBlack text-start mb-[8px] text-[18px] md:text-[20px] w-[80%] sm:w-[100%] md:tracking-[-0.4px]"
       >
         {{ heading }}
       </h3>
-      <p class="leading-[20px] text-[14px] text-textBlack">
+      <p class="leading-[20px] text-[14px] md:text-[16px] md:leading-[24px] text-textBlack">
         {{ text }}
       </p>
     </div>
