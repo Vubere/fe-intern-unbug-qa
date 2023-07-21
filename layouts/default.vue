@@ -1,7 +1,9 @@
 <template>
   <div>
-    <Header v-if="!mobile" />
-    <MobileHeader v-else />
+    <template v-if="client">
+      <Header v-if="!mobile" />
+      <MobileHeader v-else />
+    </template>
     <Nuxt />
     <Footer />
   </div>
@@ -10,13 +12,13 @@
 export default {
   data() {
     return {
-      mobile: true,
+      mobile: false,
+      client: false,
     }
   },
-  watch: {
-    window: () => {
-      this.mobile = window.innerWidth < 768
-    },
+  mounted() {
+    this.mobile = window.innerWidth < 768
+    this.client = true
   },
 }
 </script>
