@@ -26,17 +26,16 @@
         training.
       </p>
       <div class="flex justify-center gap-[12px] mb-[72px]">
-        <nuxt-link
+        <BlueLink
           to="/"
-          class="bg-primaryBlue h-[36px] md:h-[40px] w-[118px] md:w-[138px] rounded-[6px] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] font-[500] text-center text-[#fff] flex items-center justify-center block"
-          >Talk to sales</nuxt-link
-        >
-        <nuxt-link
+          className="w-[118px] md:w-[138px]"
+          >Talk to sales</BlueLink>
+        <WhiteLink
           to="/"
-          class="text-primaryBlue h-[36px] md:h-[40px] w-[118px] md:w-[138px] rounded-[6px] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] font-[500] text-center flex items-center justify-center block"
+          className=" w-[118px] md:w-[138px]"
         >
           Learn about us
-        </nuxt-link>
+        </WhiteLink>
       </div>
     </section>
     <section
@@ -80,17 +79,16 @@
         <div
           class="flex flex-col gap-[8px] mb-[67px] w-full md:flex-row mb-[67px] w-full md:flex-row"
         >
-          <nuxt-link
+          <BlueLink
             to="/"
-            class="bg-primaryBlue h-[36px] md:h-[40px] w-[159px] md:w-[185px] rounded-[6px] text-[#fff] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] font-[500] text-center flex items-center justify-center block"
-            >Hire a QA Engineer</nuxt-link
-          >
-          <nuxt-link
+            className="h-[36px] md:h-[40px] w-[159px] md:w-[185px]"
+            >Hire a QA Engineer</BlueLink>
+          <WhiteLink
             to="/"
-            class="text-primaryBlue h-[36px] md:h-[40px] w-[159px] md:w-[185px] rounded-[6px] text-[#fff] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] font-[500] ] text-center flex items-center justify-center block"
+            className="w-[159px] md:w-[185px] text-start items-start"
           >
             Apply to join talent pool
-          </nuxt-link>
+          </WhiteLink>
         </div>
       </div>
       <div
@@ -147,16 +145,14 @@
           </li>
         </ul>
         <div class="flex flex-col gap-[8px] mb-[67px] w-full md:flex-row">
-          <nuxt-link
+          <BlueLink
             to="/"
-            class="bg-primaryBlue h-[36px] md:h-[40px] w-[159px] md:w-[191px] rounded-[6px] text-[#fff] text-[14px] md:text-[16px] leading-[20px] font-[500] text-center flex items-center justify-center block"
-            >Request QA service</nuxt-link
-          >
-          <nuxt-link
+            className="w-[159px] md:w-[191px] "
+            >Request QA service</BlueLink>
+          <WhiteLink
             to="/"
-            class="bg-white h-[36px] md:h-[40px] w-[159px] md:w-[191px] rounded-[6px] text-primaryBlue text-[14px] md:text-[16px] leading-[20px] font-[500] text-center flex items-center justify-start"
-            >Get a free QA Audit</nuxt-link
-          >
+            className="w-[159px] md:w-[191px] justify-start items-start pl-0 text-start"
+            >Get a free QA Audit</WhiteLink>
         </div>
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
@@ -217,11 +213,10 @@
         <div
           class="flex flex-col gap-[8px] mb-[67px] w-full md:flex-row mb-[67px]"
         >
-          <nuxt-link
+          <BlueLink
             to="/"
-            class="bg-primaryBlue h-[36px] md:h-[40px] w-[115px] md:w-[135px] rounded-[6px] text-[#fff] text-[14px] leading-[20px] font-[500] text-center flex items-center justify-center block"
-            >Try our Beta</nuxt-link
-          >
+            class="w-[115px] md:w-[135px]"
+            >Try our Beta</BlueLink>
         </div>
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
@@ -260,16 +255,14 @@
         <div
           class="flex flex-col gap-[8px] mb-[67px] w-full md:flex-row mb-[67px]"
         >
-          <nuxt-link
+          <BlueLink
             to="/"
-            class="bg-primaryBlue h-[36px] md:h-[40px] w-[194px] md:w-[225px] rounded-[6px] text-[#fff] text-[14px] leading-[20px] font-[500] text-center flex items-center justify-center block"
-            >Signup for the Academy</nuxt-link
-          >
-          <nuxt-link
+            className="w-[194px] md:w-[225px]"
+            >Signup for the Academy</BlueLink>
+          <WhiteLink
             to="/"
-            class="bg-white h-[36px] md:h-[40px] w-[194px] md:w-[225px] rounded-[6px] text-primaryBlue text-[14px] md:text-[16px] leading-[20px] font-[500] flex items-center justify-start text-start block"
-            >Request training for staff</nuxt-link
-          >
+            className="w-[194px] md:w-[225px]  text-start block"
+            >Request training for staff</WhiteLink>
         </div>
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
@@ -293,12 +286,12 @@
         application by our team of expert QA Engineers for free! Take advantage
         of our special offer before it ends.
       </p>
-      <nuxt-link
+      <BlueLink
         to="/"
-        class="bg-primaryBlue h-[36px] md:h-[40px] w-[161px] md:w-[177px] rounded-[6px] text-[#fff] text-[14px] leading-[20px] font-[500] text-center flex items-center justify-center block mx-auto"
+        className="w-[161px] md:w-[177px] rounded-[6px] block mx-auto"
       >
         Get a free QA audit
-      </nuxt-link>
+      </BlueLink>
     </section>
     <section class="w-full mb-[72px] max-w-[1120px] mx-auto">
       <h2
@@ -338,12 +331,12 @@
           standards of quality, and we stand behind our work with a guarantee of
           satisfaction.
         </p>
-        <nuxt-link
+        <BlueLink
           to="/"
-          class="bg-primaryBlue h-[36px] md:h-[40px] w-[118px] md:w-[158px] rounded-[6px] text-[#fff] text-[14px] md-[18px] leading-[20px] md:leading-[28px] font-[500] text-center flex items-center justify-center block mx-auto md:mx-0 mb-[37px]" 
+          className="w-[118px] md:w-[158px]  mx-auto md:mx-0 mb-[37px]" 
         >
           Talk to sales
-        </nuxt-link>
+        </BlueLink>
       </div>
       <form
         class="w-[77.34%] rounded-t-[10px] bg-[#fff] p-[16.5px] md:p-[23.84px] mx-auto overflow-hidden flex flex-col gap-[10.54px] md:gap-[14.9px] max-w-[327px]"
