@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-[112px] md:mt-[204px] px-[32px]">
+  <main class="mt-[112px] md:mt-[204px] px-[32px] mb-[72px] md:mb-[180px]">
     <section
       class="w-full max-w-[816px] mx-auto mb-[72px] md:mb-[89px] overflow-hidden"
     >
@@ -344,7 +344,7 @@
         </nuxt-link>
       </div>
       <form
-        class="w-[77.34%] rounded-[10px] bg-[#fff] p-[16.5px] md:p-[23.84px] mx-auto overflow-hidden flex flex-col gap-[10.54px] md:gap-[14.9px] max-w-[327px]"
+        class="w-[77.34%] rounded-t-[10px] bg-[#fff] p-[16.5px] md:p-[23.84px] mx-auto overflow-hidden flex flex-col gap-[10.54px] md:gap-[14.9px] max-w-[327px]"
       >
         <div class="w-full flex gap-[2.17px] md:gap-[5.96px] flex-col">
           <label
@@ -360,7 +360,7 @@
             disabled
           />
           <p class="text-[7.38px] md:text-[10.428px] text-ash leading-[10.543px] md:leading-[14.897px]">
-            e.g Senior QA Engineer proficient in Selenim
+            e.g Senior QA Engineer proficient in Selenium
           </p>
         </div>
         <div class="w-full flex gap-[2.17px] md:gap-[5.96px] flex-col">
