@@ -56,21 +56,21 @@
         </p>
         <ul class="w-full flex flex-col gap-[16px] mb-[24px]">
           <li class="w-full flex gap-[12px]">
-            <nuxt-img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/blueCheckmark.svg" class="w-[24px] h-[24px]" />
             <span
               class="text-textBlack text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]"
               >Get matched within 72 hours</span
             >
           </li>
           <li class="w-full flex gap-[12px]">
-            <nuxt-img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/blueCheckmark.svg" class="w-[24px] h-[24px]" />
             <span
               class="text-textBlack text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]"
               >Diverse and inclusive talent pool from 20+ countries</span
             >
           </li>
           <li class="w-full flex gap-[12px]">
-            <nuxt-img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/blueCheckmark.svg" class="w-[24px] h-[24px]" />
             <span
               class="text-textBlack text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]"
               >Flexible payment options</span

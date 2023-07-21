@@ -100,7 +100,7 @@
           </li>
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">
-              <nuxt-img src="/linkedin.svg" width="24px" height="24px"/>
+              <nuxt-img src="/linkedIn.svg" width="24px" height="24px"/>
             </nuxt-link>
           </li>
         </ul>
