@@ -1,63 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Frontend Internship Position Test
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is an assessment task for a frontend internship position at UnbugQA. The site is hosted here [https://victor-ubere-unbugqa-fe-test.vercel.app/](https://unbugqa-frontend-internship-test.vercel.app/)
 
-## Setup
+## Task
 
-Make sure to install the dependencies:
+- Build a Homepage
 
-```bash
-# npm
-npm install
+## Packages
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Nuxt/Vue3
+- nuxt-img
+- Tailwindcss
