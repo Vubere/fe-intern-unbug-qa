@@ -36,8 +36,9 @@
     >
       <nav class="w-full nav-component">
         <ul class="flex flex-col gap-2 items-center nav-component" :ref="nav">
-          <li class="nav-component">
-            <nuxt-link class="nav-component" to="">Products</nuxt-link>
+          <li class="nav-component flex items-center gap-[4px]">
+            <nuxt-link class="" to="">Products </nuxt-link>
+            <nuxt-img src="/arrow-down.svg" class="w-[15px] h-[15px]" />
           </li>
           <li class="nav-component">
             <nuxt-link class="nav-component" to="">About us</nuxt-link>
