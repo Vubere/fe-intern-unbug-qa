@@ -372,7 +372,7 @@
           <select
             type="text"
             name="proficiency"
-              class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh"
+              class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] px-[3px]  md:px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh"
             id="proficiency"
             placeholder="Your company"
             disabled
