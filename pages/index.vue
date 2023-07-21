@@ -50,19 +50,19 @@
         </p>
         <ul class="w-full flex flex-col gap-[16px] mb-[24px]">
           <li class="w-full flex gap-[12px]">
-            <img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Get matched within 72 hours</span
             >
           </li>
           <li class="w-full flex gap-[12px]">
-            <img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Diverse and inclusive talent pool from 20+ countries</span
             >
           </li>
           <li class="w-full flex gap-[12px]">
-            <img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/blueCheckMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Flexible payment options</span
             >
@@ -83,7 +83,7 @@
         </div>
       </div>
       <div class="w-full pl-[16px]">
-        <img src="/articleImg1.png" class="w-full" />
+        <nuxt-img src="/articleImg1.png" class="w-full" />
       </div>
     </section>
     <section class="rounded-[20px] bg-[#f9fafb] mb-[72px]">
@@ -104,25 +104,25 @@
         </p>
         <ul class="w-full flex flex-col gap-[16px] mb-[24px]">
           <li class="w-full flex gap-[12px]">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Flexible plans designed to scale with your business</span
             >
           </li>
           <li class="w-full flex gap-[12px]">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Dedicated project manager</span
             >
           </li>
           <li class="w-full flex gap-[12px]">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Skilled QA experts</span
             >
           </li>
         </ul>
-        <div class="flex flex-col gap-[8px] ">
+        <div class="flex flex-col gap-[8px]">
           <nuxt-link
             to="/"
             class="bg-primaryBlue h-[36px] w-[159px] rounded-[6px] text-[#fff] text-[14px] leading-[20px] font-[500] text-center flex items-center justify-center block"
@@ -136,7 +136,7 @@
         </div>
       </div>
       <div class="w-full pl-[16px]">
-        <img src="/articleImg2.png" class="w-full" />
+        <nuxt-img src="/articleImg2.png" class="w-full" />
       </div>
     </section>
     <section class="rounded-[20px] bg-[#f9fafb] mb-[56px]">
@@ -157,19 +157,19 @@
         </p>
         <ul class="w-full flex flex-col gap-[16px] mb-[24px]">
           <li class="w-full flex gap-[12px] items-center">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Run unlimited user tests</span
             >k
           </li>
           <li class="w-full flex gap-[12px] items-center">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Get real-time insights</span
             >
           </li>
           <li class="w-full flex gap-[12px] items-center">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span class="text-textBlack text-[14px] leading-[20px]"
               >Documents findings with notes</span
             >
@@ -184,7 +184,7 @@
         </div>
       </div>
       <div class="w-full pl-[16px]">
-        <img src="/articleImg3.png" class="w-full" />
+        <nuxt-img src="/articleImg3.png" class="w-full" />
       </div>
     </section>
     <section class="rounded-[20px] bg-[#f9fafb] mb-[56px]">
@@ -200,15 +200,15 @@
         </p>
         <ul class="w-full flex flex-col gap-[16px] mb-[24px]">
           <li class="w-full flex gap-[12px]">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span>Comprehensive curriculum</span>
           </li>
           <li class="w-full flex gap-[12px]">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span>Expert mentor</span>
           </li>
           <li class="w-full flex gap-[12px]">
-            <img src="/checkMark.svg" class="w-[24px] h-[24px]" />
+            <nuxt-img src="/checkMark.svg" class="w-[24px] h-[24px]" />
             <span>100% remote</span>
           </li>
         </ul>
@@ -226,7 +226,7 @@
         </div>
       </div>
       <div class="w-full pl-[16px]">
-        <img src="/articleImg4.png" class="w-full" />
+        <nuxt-img src="/articleImg4.png" class="w-full" />
       </div>
     </section>
     <section class="mb-[72px]">
@@ -254,26 +254,43 @@
         Featured articles
       </h2>
       <div class="flex flex-col gap-[56px] w-full">
-        <div v-for="item in articleCards" class="p-0">
-          <ArticleCard
-            :heading="item.heading"
-            :text="item.text"
-            :image="item.image"
-          />
-        </div>
+        <ArticleCard
+          v-for="item in articleCards"
+          :key="item.heading"
+          :heading="item.heading"
+          :text="item.text"
+          :image="item.image"
+        />
       </div>
     </section>
     <section class="bg-[#e9f2ff] rounded-[20px] pt-[32px] px-[16px] mb-[72px]">
-      <h2 class="font-[700] text-[16px] text-darkBlack font-[600] text-center w-full leading-[24px] mb-[8px]">We guarantee the high quality of your product.</h2>
-      <p class="text-center text-[14px] text-textBlack leading-[20px]  mb-[24px] ">
+      <h2
+        class="font-[700] text-[16px] text-darkBlack font-[600] text-center w-full leading-[24px] mb-[8px]"
+      >
+        We guarantee the high quality of your product.
+      </h2>
+      <p
+        class="text-center text-[14px] text-textBlack leading-[20px] mb-[24px]"
+      >
         Our integrated solutions ensure your product meets the highest standards
         of quality, and we stand behind our work with a guarantee of
         satisfaction.
       </p>
-      <nuxt-link to="/" class="bg-primaryBlue h-[36px] w-[118px] rounded-[6px] text-[#fff] text-[14px] leading-[20px] font-[500] text-center flex items-center justify-center block mx-auto mb-[37px]"> Talk to sales </nuxt-link>
-      <form class="w-[77.34%] rounded-[10px] bg-[#fff] p-[16.5px] mx-auto overflow-hidden flex flex-col gap-[10.54px]">
-        <div class="w-full flex gap-[2.17px] flex-col" >
-          <label for="headline" class="text-[7.38px] font-[500] text-darkBlack w-full ">Headline</label>
+      <nuxt-link
+        to="/"
+        class="bg-primaryBlue h-[36px] w-[118px] rounded-[6px] text-[#fff] text-[14px] leading-[20px] font-[500] text-center flex items-center justify-center block mx-auto mb-[37px]"
+      >
+        Talk to sales
+      </nuxt-link>
+      <form
+        class="w-[77.34%] rounded-[10px] bg-[#fff] p-[16.5px] mx-auto overflow-hidden flex flex-col gap-[10.54px]"
+      >
+        <div class="w-full flex gap-[2.17px] flex-col">
+          <label
+            for="headline"
+            class="text-[7.38px] font-[500] text-darkBlack w-full"
+            >Headline</label
+          >
           <input
             type="text"
             name="headline"
@@ -281,14 +298,20 @@
             class="w-full h-[16.27px] rounded-[3.16px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] placeholder-lightAsh"
             disabled
           />
-          <p class="text-[7.38px] text-ash leading-[10.543px]">e.g Senior QA Engineer proficient in Selenim</p>
+          <p class="text-[7.38px] text-ash leading-[10.543px]">
+            e.g Senior QA Engineer proficient in Selenim
+          </p>
         </div>
         <div class="w-full flex gap-[2.17px] flex-col">
-          <label for="proficiency" class="text-[7.38px] font-[500] text-darkBlack w-full ">Proficiency</label>
+          <label
+            for="proficiency"
+            class="text-[7.38px] font-[500] text-darkBlack w-full"
+            >Proficiency</label
+          >
           <select
             type="text"
             name="proficiency"
-             class="w-full h-[16.27px] rounded-[3.16px] border border-[#D1D5DB] flex items-center text-[7.38px] placeholder-lightAsh block"
+            class="w-full h-[16.27px] rounded-[3.16px] border border-[#D1D5DB] flex items-center text-[7.38px] placeholder-lightAsh block"
             id="proficiency"
             placeholder="Your company"
             disabled
@@ -297,58 +320,56 @@
           </select>
         </div>
         <div class="w-full flex gap-[2.17px] flex-col">
-          <label for="headline" class="text-[7.38px] font-[500] text-darkBlack w-full ">Skills</label>
-          <input type="text" placeholder="Search skill" disabled  class="w-full h-[16.27px] rounded-[3.16px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] placeholder-lightAsh"/>
+          <label
+            for="headline"
+            class="text-[7.38px] font-[500] text-darkBlack w-full"
+            >Skills</label
+          >
+          <input
+            type="text"
+            placeholder="Search skill"
+            disabled
+            class="w-full h-[16.27px] rounded-[3.16px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] placeholder-lightAsh"
+          />
         </div>
       </form>
     </section>
+    <nuxt-img src="/blogImages/img1.svg" />
   </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script setup lang="ts">
+interface Article {
+  heading: string;
+  text: string;
+  image: string;
+}
+const articleCards = ref<Article[]>([
+  {
+    heading: "Why You Should Hire a Software QA Engineer",
+    text: "If you're a software company, chances are good that you've already considered hiring a quality assurance...",
+    image: "/blogImages/image1.png",
+  },
+  {
+    heading:
+      "Building Better Products with Decentralized User Research: A Guide for Teams",
+    text: "User research is a critical component of product development. It enables teams to better understand their...",
+    image: "/blogImages/image2.png",
+  },
+  {
+    heading: "Best Ways To Learn Software Quality Assurance Engineering",
+    text: "Software Quality Assurance Engineering (SQAE) is a critical process that ensures software products and... ",
+    image: "/blogImages/image3.png",
+  },
+]);
+useHead({
+  title: "UnBug QA | Home",
+  meta: [
+    {
+      name: "description",
+      content: "This is the home page of UnBug QA",
+    },
+  ],
+});
 
-export default Vue.extend({
-  name: 'HomePage',
-  head: {
-    title: 'UnbugQA | Home',
-    meta: [
-      {
-        charset: 'utf-8',
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1',
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'This is Nuxt.js project made in response to an assessment test from UnbugQA for the position of Frontend Developer',
-      },
-    ],
-  },
-  data() {
-    return {
-      articleCards: [
-        {
-          heading: 'Why You Should Hire a Software QA Engineer',
-          text: "If you're a software company, chances are good that you've already considered hiring a quality assurance...",
-          image: '/blogImages/img1.svg',
-        },
-        {
-          heading:
-            'Building Better Products with Decentralized User Research: A Guide for Teams',
-          text: 'User research is a critical component of product development. It enables teams to better understand their...',
-          image: '/blogImages/img2.svg',
-        },
-        {
-          heading: 'Best Ways To Learn Software Quality Assurance Engineering',
-          text: 'Software Quality Assurance Engineering (SQAE) is a critical process that ensures software products and... ',
-          image: '/blogImages/img3.svg',
-        },
-      ],
-    }
-  },
-})
 </script>

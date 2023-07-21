@@ -1,7 +1,9 @@
 <template>
   <footer class="w-full flex flex-col pt-[64px]">
-    <h1 class="font-[700] text-[19.69px] flex gap-[11px] items-center justify-center text-headerBlack mb-[16px]">
-      <img src="/logo.svg" class="w-[30px] h-[30px]" />
+    <h1
+      class="font-[700] text-[19.69px] flex gap-[11px] items-center justify-center text-headerBlack mb-[16px]"
+    >
+      <nuxt-img src="/logo.svg" class="w-[30px] h-[30px]" />
       UnbugQA
     </h1>
     <div class="flex flex-col items-center mb-[64px]">
@@ -10,7 +12,11 @@
     </div>
     <div class="flex flex-col gap-[32px]">
       <div class="w-full">
-        <h4 class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]">Services</h4>
+        <h4
+          class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]"
+        >
+          Services
+        </h4>
         <ul class="flex flex-col items-center gap-[8px]">
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">Hire QA Engineer</nuxt-link>
@@ -27,7 +33,11 @@
         </ul>
       </div>
       <div class="w-full">
-        <h4 class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]">Resources</h4>
+        <h4
+          class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]"
+        >
+          Resources
+        </h4>
         <ul class="flex flex-col items-center gap-[8px]">
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">Help center</nuxt-link>
@@ -44,7 +54,11 @@
         </ul>
       </div>
       <div>
-        <h4 class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]">Company</h4>
+        <h4
+          class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]"
+        >
+          Company
+        </h4>
         <ul class="flex flex-col items-center gap-[8px]">
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">About us</nuxt-link>
@@ -61,26 +75,30 @@
         </ul>
       </div>
       <div class="pb-[170px]">
-        <h4 class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]">Follow us</h4>
+        <h4
+          class="text-lightAsh text-center font-[500] leading-[24px] mb-[15px]"
+        >
+          Follow us
+        </h4>
         <ul class="flex items-center justify-center gap-[16px]">
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">
-              <img src="/facebook.svg" />
+              <nuxt-img src="/facebook.svg" />
             </nuxt-link>
           </li>
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">
-              <img src="/twitter.svg" />
+              <nuxt-img src="/twitter.svg" />
             </nuxt-link>
           </li>
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">
-              <img src="/instagram.svg" />
+              <nuxt-img src="/instagram.svg" />
             </nuxt-link>
           </li>
           <li class="text-ash leading-[24px]">
             <nuxt-link to="/">
-              <img src="/linkedin.svg" />
+              <nuxt-img src="/linkedin.svg" />
             </nuxt-link>
           </li>
         </ul>
