@@ -412,18 +412,18 @@ const articleCards = ref<Article[]>([
   {
     heading: "Why You Should Hire a Software QA Engineer",
     text: "If you're a software company, chances are good that you've already considered hiring a quality assurance...",
-    image: "/blogImages/img1.svg",
+    image: "/blogImages/img1.png",
   },
   {
     heading:
       "Building Better Products with Decentralized User Research: A Guide for Teams",
     text: "User research is a critical component of product development. It enables teams to better understand their...",
-    image: "/blogImages/img2.svg",
+    image: "/blogImages/img2.png",
   },
   {
     heading: "Best Ways To Learn Software Quality Assurance Engineering",
     text: "Software Quality Assurance Engineering (SQAE) is a critical process that ensures software products and... ",
-    image: "/blogImages/img3.svg",
+    image: "/blogImages/img3.png",
   },
 ]);
 useHead({
