@@ -1,9 +1,8 @@
 <template>
   <div>
-    <client-only>
-      <Header v-if="!mobile" />
-      <MobileHeader v-else />
-    </client-only>
+    <Header />
+    <MobileHeader  />
+
     <slot />
     <Footer />
   </div>
@@ -19,10 +18,12 @@ useHead({
     },
   ],
 });
-const mobile = ref(false);
+/* const mobile = ref(true);
 
 const handleResize = () => {
-  mobile.value = window.innerWidth < 768;
+  if (window) {
+    mobile.value = window.innerWidth < 768;
+  }
 };
 onMounted(() => {
   mobile.value = window.innerWidth < 768;
@@ -30,5 +31,5 @@ onMounted(() => {
 });
 onUnmounted(() => {
   window.removeEventListener("resize", handleResize);
-});
+}); */
 </script>

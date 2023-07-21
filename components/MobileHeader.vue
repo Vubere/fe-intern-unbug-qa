@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-between w-[100vw] px-[16px] pb-[13px] pt-[21px] mb-[51px] fixed top-0 left-0 w-full bg-[#fff] z-20"
+    class="flex justify-between w-[100vw] px-[16px] pb-[13px] pt-[21px] mb-[51px] fixed top-0 left-0 w-full bg-[#fff] z-20 md:hidden"
   >
     <h1
       class="font-[700] text-[19.69px] flex gap-[11px] items-center text-headerBlack"

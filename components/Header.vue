@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between gap-2 p-2 py-[24px] px-[5%] lg:px-[11.45%] h-[80px] items-center fixed top-0 left-0 w-full bg-[#fff] z-20 ">
+  <header class="flex justify-between gap-2 p-2 py-[24px] px-[5%] lg:px-[11.45%] h-[80px] items-center fixed top-0 left-0 w-full bg-[#fff] z-20 hidden md:flex">
     <div class="flex gap-[30px] items-center">
       <h1
         class="font-[700] text-[19.69px] flex gap-[11px] items-center text-headerBlack"
