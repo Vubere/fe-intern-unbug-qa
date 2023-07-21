@@ -96,7 +96,7 @@
       <div
         class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]"
       >
-        <nuxt-img src="/articleImg1.png" class="w-full" />
+        <nuxt-img src="/articleImg1.svg" class="w-full" />
       </div>
     </section>
     <section
@@ -161,7 +161,7 @@
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
         <nuxt-img
-          src="/articleImg2.png"
+          src="/articleImg2.svg"
           class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]"
         />
       </div>
@@ -224,7 +224,7 @@
         </div>
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
-        <nuxt-img src="/articleImg3.png" class="w-full" />
+        <nuxt-img src="/articleImg3.svg" class="w-full" />
       </div>
     </section>
     <section
@@ -273,7 +273,7 @@
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
         <nuxt-img
-          src="/articleImg4.png"
+          src="/articleImg4.svg"
           class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]"
         />
       </div>
@@ -330,7 +330,7 @@
           We guarantee the high quality of your product.
         </h2>
         <p
-          class="text-center md:text-start text-[14px] md:text-[16px] text-textBlack leading-[20px] md:leading-[24px] mb-[24px] "
+          class="text-center md:text-start text-[14px] md:text-[16px] text-textBlack leading-[20px] md:leading-[24px] mb-[24px]"
         >
           Our integrated solutions ensure your product meets the highest
           standards of quality, and we stand behind our work with a guarantee of
@@ -338,7 +338,7 @@
         </p>
         <nuxt-link
           to="/"
-          class="bg-primaryBlue h-[36px] md:h-[40px] w-[118px] md:w-[158px] rounded-[6px] text-[#fff] text-[14px] md-[18px]  leading-[20px] md:leading-[28px] font-[500] text-center flex items-center justify-center block mx-auto md:mx-0 mb-[37px]"
+          class="bg-primaryBlue h-[36px] md:h-[40px] w-[118px] md:w-[158px] rounded-[6px] text-[#fff] text-[14px] md-[18px] leading-[20px] md:leading-[28px] font-[500] text-center flex items-center justify-center block mx-auto md:mx-0 mb-[37px]"
         >
           Talk to sales
         </nuxt-link>
@@ -356,10 +356,12 @@
             type="text"
             name="headline"
             placeholder="Your company"
-            class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh "
+            class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh"
             disabled
           />
-          <p class="text-[7.38px] md:text-[10.428px] text-ash leading-[10.543px] md:leading-[14.897px]">
+          <p
+            class="text-[7.38px] md:text-[10.428px] text-ash leading-[10.543px] md:leading-[14.897px]"
+          >
             e.g Senior QA Engineer proficient in Selenium
           </p>
         </div>
@@ -372,7 +374,7 @@
           <select
             type="text"
             name="proficiency"
-              class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] px-[3px]  md:px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh"
+            class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] px-[3px] md:px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh"
             id="proficiency"
             placeholder="Your company"
             disabled
@@ -390,7 +392,7 @@
             type="text"
             placeholder="Search skill"
             disabled
-              class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh"
+            class="w-full h-[16.27px] md:h-[29.9px] rounded-[3.16px] md:rounded-[4.47px] border border-[#D1D5DB] py-[5.76px] px-[6.32px] text-[7.38px] md:text-[10.428px] placeholder-lightAsh"
           />
         </div>
       </form>
@@ -408,18 +410,18 @@ const articleCards = ref<Article[]>([
   {
     heading: "Why You Should Hire a Software QA Engineer",
     text: "If you're a software company, chances are good that you've already considered hiring a quality assurance...",
-    image: "/blogImages/image1.png",
+    image: "/blogImages/img1.svg",
   },
   {
     heading:
       "Building Better Products with Decentralized User Research: A Guide for Teams",
     text: "User research is a critical component of product development. It enables teams to better understand their...",
-    image: "/blogImages/image2.png",
+    image: "/blogImages/img2.svg",
   },
   {
     heading: "Best Ways To Learn Software Quality Assurance Engineering",
     text: "Software Quality Assurance Engineering (SQAE) is a critical process that ensures software products and... ",
-    image: "/blogImages/image3.png",
+    image: "/blogImages/img3.svg",
   },
 ]);
 useHead({
