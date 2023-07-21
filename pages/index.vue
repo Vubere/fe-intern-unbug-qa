@@ -96,7 +96,7 @@
       <div
         class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]"
       >
-        <nuxt-img src="/articleImg1.svg" class="w-full" />
+        <nuxt-img src="/articleImg1.svg" class="w-full" preload/>
       </div>
     </section>
     <section
@@ -162,7 +162,7 @@
       <div class="w-full pl-[16px] max-w-[515px]">
         <nuxt-img
           src="/articleImg2.svg"
-          class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]"
+          class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]" preload
         />
       </div>
     </section>
@@ -224,7 +224,7 @@
         </div>
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
-        <nuxt-img src="/articleImg3.svg" class="w-full" />
+        <nuxt-img src="/articleImg3.svg" class="w-full" preload/>
       </div>
     </section>
     <section
@@ -272,7 +272,8 @@
         </div>
       </div>
       <div class="w-full pl-[16px] max-w-[515px]">
-        <nuxt-img
+        <nuxt-img 
+          preload
           src="/articleImg4.svg"
           class="w-full pl-[16px] max-w-[515px] md:min-w-[350px] md:min-h-[400px]"
         />
@@ -338,7 +339,7 @@
         </p>
         <nuxt-link
           to="/"
-          class="bg-primaryBlue h-[36px] md:h-[40px] w-[118px] md:w-[158px] rounded-[6px] text-[#fff] text-[14px] md-[18px] leading-[20px] md:leading-[28px] font-[500] text-center flex items-center justify-center block mx-auto md:mx-0 mb-[37px]"
+          class="bg-primaryBlue h-[36px] md:h-[40px] w-[118px] md:w-[158px] rounded-[6px] text-[#fff] text-[14px] md-[18px] leading-[20px] md:leading-[28px] font-[500] text-center flex items-center justify-center block mx-auto md:mx-0 mb-[37px]" 
         >
           Talk to sales
         </nuxt-link>
